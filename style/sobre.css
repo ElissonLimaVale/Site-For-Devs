@@ -12,6 +12,9 @@ body {
 h1,h2,h3,h4 {
     margin: 5px 12px;
 }
+h3 {
+    margin-top: 18px;
+}
 h5,h6 {
     color:rgb(160, 160, 160);
     margin: 5px 12px;

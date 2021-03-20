@@ -14,8 +14,11 @@ a:hover {
 hr {
     background-color: rgb(228, 228, 228); height: 1px; border: 0;
 }
+p {
+    margin: 16px 5px;
+}
 .line-title {
-    margin-top: 5vh;
+    margin: 5vh 0px;
     color: rgb(230, 230, 230);
 }
 

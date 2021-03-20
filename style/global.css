@@ -4,3 +4,15 @@
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(134, 134, 134);
 }
+a {
+    text-decoration: none;
+    color: rgb(170, 170, 170);
+}
+a:hover {
+    color: rgb(97, 97, 97);
+}
+
+.line-title {
+    margin-top: 10vh;
+    color: rgb(230, 230, 230);
+}

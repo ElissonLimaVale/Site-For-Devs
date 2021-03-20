@@ -1,23 +1,25 @@
-
+let heightPhone = {'Devs/inicio': 500, 'Devs/artigos': 500, 'Devs/sobre': 500,'Devs/contato': 800, 'Devs/duvidas': 500};
+let staticHeight = {'Devs/inicio': 500, 'Devs/artigos': 500, 'Devs/sobre': 500,'Devs/contato': 500, 'Devs/duvidas': 500};
 let ActionMenu = {
     "DEV FULL": () => {
         document.querySelector("iframe").src = "inicio.html";
+        resizing();
     },
     "Artigos": () => {
         document.querySelector("iframe").src = "artigos.html";
+        resizing();
     },
     "Sobre": () => {
         document.querySelector("iframe").src = "sobre.html";
+        resizing();
     },
     "Contato": () => {
         document.querySelector("iframe").src = "contato.html";
-        document.querySelector("iframe").style = "height: 500px;";
-        if(window.innerWidth < 950){
-            document.querySelector("iframe").style = "height: 800px;";
-        }
+        resizing();
     },
     "Dúvidas": () => {
         document.querySelector("iframe").src = "duvidas.html";
+        resizing();
     }
 };
 
@@ -29,8 +31,22 @@ document.querySelector("#duvidas").addEventListener("click", function(e){activeM
 
 function activeMenu(text){
     ActionMenu[text]();
-
 }
 
+//adaptação de layout ao tamanho da tela
+window.addEventListener("resize",() => {resizing();});
 
+function resizing(){
+    let iframe = document.querySelector("iframe");
+    let page = iframe.src.substring(iframe.src.indexOf("Devs/"),iframe.src.indexOf("."));
+    if(window.innerWidth > 950){
+        iframe.height = staticHeight[page];
+    }else {
+        iframe.height = heightPhone[page];
+    }
+}
 
+// document.querySelector("iframe").style = "height: 500px;";
+// if(window.innerWidth < 950){
+//     document.querySelector("iframe").style = "height: 800px;";
+// }

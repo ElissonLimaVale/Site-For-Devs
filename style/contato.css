@@ -23,7 +23,7 @@ h5,h6 {
         height: auto;
         margin: 3.3%;
         float: left;
-        border: 1px solid rgba(0,0,0,.2);
+        border: 1px solid rgb(216, 216, 216);
         padding: 10px;
         border-radius: 4px;
     }
@@ -32,7 +32,7 @@ h5,h6 {
     .content-social {
         width: calc(100% - 22px);
         height: auto;
-        border: 1px solid rgba(0,0,0,.3);
+        border: 1px solid rgb(204, 204, 204);
         display: inline-block;
         padding: 10px;
         margin-top: 10px;

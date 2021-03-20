@@ -34,7 +34,7 @@ function activeMenu(text){
 }
 
 //adaptação de layout ao tamanho da tela
-window.addEventListener("resize",() => {resizing();});
+window.addEventListener("resize", resizing);
 
 function resizing(){
     let iframe = document.querySelector("iframe");

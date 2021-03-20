@@ -1,24 +1,57 @@
 //############# LISTA DE ARTIGOS PARA A PÁGINA #################
 let ListArtigos = [
     {
-        "title": "Lei geral de proteção de dados pessoais(LGPD).",
+        "title": "Dúvidas sobre LGPD",
+        "subtitle": "Dúvidas sobre LGPD",
         "page": "",
         "text": "",
         "referencia": "",
-        "height": ""
+        "height": "",
+        "fonte": ""
     },
     {
-        "title": "Lei geral de proteção de dados pessoais(LGPD).",
+        "title": "Banco de dados",
+        "subtitle": "Dúvidas sobre LGPD",
         "page": "",
         "text": "",
         "referencia": "",
-        "height": ""
+        "height": "",
+        "fonte": ""
     },
     {
-        "title": "Lei geral de proteção de dados pessoais(LGPD).",
+        "title": "Gerenciamento de memória",
+        "subtitle": "Dúvidas sobre LGPD",
         "page": "",
         "text": "",
         "referencia": "",
-        "height": ""
+        "height": "",
+        "fonte": ""
+    },
+    {
+        "title": "Gerenciamento de memória",
+        "subtitle": "Dúvidas sobre LGPD",
+        "page": "",
+        "text": "",
+        "referencia": "",
+        "height": "",
+        "fonte": ""
+    },
+    {
+        "title": "Gerenciamento de memória",
+        "subtitle": "Dúvidas sobre LGPD",
+        "page": "",
+        "text": "",
+        "referencia": "",
+        "height": "",
+        "fonte": ""
+    },
+    {
+        "title": "Gerenciamento de memória",
+        "subtitle": "Dúvidas sobre LGPD",
+        "page": "",
+        "text": "",
+        "referencia": "",
+        "height": "",
+        "fonte": ""
     }
 ]

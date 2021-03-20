@@ -11,8 +11,22 @@ a {
 a:hover {
     color: rgb(97, 97, 97);
 }
-
+hr {
+    background-color: rgb(228, 228, 228); height: 1px; border: 0;
+}
 .line-title {
     margin-top: 10vh;
     color: rgb(230, 230, 230);
+}
+
+@media screen and (min-width: 900px){
+    .col-50 {
+        width: 49.8%;
+        float: left;
+    }
+}
+@media screen and (max-width: 900px){
+    .col-50 {
+        width: 100%;
+    }
 }

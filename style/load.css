@@ -49,12 +49,12 @@
 .cube__face--top    { background: hsla(225, 45%, 27%, 0.671); }
 .cube__face--bottom { background: hsla(225, 45%, 27%, 0.671); }
 
-.cube__face--front  { transform: rotateY( 0deg) translateZ(40px); }
-.cube__face--right  { transform: rotateY( 90deg) translateZ(40px); }
-.cube__face--back   { transform: rotateY(180deg) translateZ(40px); }
-.cube__face--left   { transform: rotateY(-90deg) translateZ(40px); }
-.cube__face--top    { transform: rotateX( 90deg) translateZ(40px); }
-.cube__face--bottom { transform: rotateX(-90deg) translateZ(40px); }
+.cube__face--front  { transform: rotateY( 0deg) translateZ(32px); }
+.cube__face--right  { transform: rotateY( 90deg) translateZ(32px); }
+.cube__face--back   { transform: rotateY(180deg) translateZ(32px); }
+.cube__face--left   { transform: rotateY(-90deg) translateZ(32px); }
+.cube__face--top    { transform: rotateX( 90deg) translateZ(32px); }
+.cube__face--bottom { transform: rotateX(-90deg) translateZ(32px); }
 
 /* .cube.is-backface-hidden .cube__face {
     backface-visibility: hidden;

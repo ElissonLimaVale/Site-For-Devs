@@ -46,8 +46,8 @@ let ListArtigos = [
         "fonte": ""
     },
     {
-        "title": "Gerenciamento de memória",
-        "subtitle": "Dúvidas sobre LGPD",
+        "title": "Cubo com CSS 3D",
+        "subtitle": "Construindo um cubo tridimenssional com CSS e HTML",
         "page": "",
         "text": "",
         "referencia": "",

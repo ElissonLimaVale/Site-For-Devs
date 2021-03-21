@@ -1,5 +1,5 @@
 let staticHeight = {'Devs/inicio': 500, 'Devs/artigos': 500, 'Devs/sobre': 580,'Devs/contato': 500, 'Devs/duvidas': 500};
-let heightPhone = {'Devs/inicio': 500, 'Devs/artigos': 500, 'Devs/sobre': 980,'Devs/contato': 800, 'Devs/duvidas': 500};
+let heightPhone = {'Devs/inicio': 500, 'Devs/artigos': 500, 'Devs/sobre': 990,'Devs/contato': 800, 'Devs/duvidas': 630};
 
 let ActionMenu = {
     "DEV FULL": () => {

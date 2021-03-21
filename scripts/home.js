@@ -91,5 +91,6 @@ function resizeMenu(size){
 
 
 
-///ajusta o menu 
+///ajusta o menu e tela - responsividade js
 resizeMenu(window.innerWidth);
+resizing();

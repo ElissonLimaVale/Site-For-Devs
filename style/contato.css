@@ -26,6 +26,7 @@ h5,h6 {
         border: 1px solid rgb(216, 216, 216);
         padding: 10px;
         border-radius: 4px;
+        overflow: hidden;
     }
 }
 @media screen and (max-width: 900px){
